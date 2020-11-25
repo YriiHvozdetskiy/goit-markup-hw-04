@@ -164,7 +164,6 @@ button {
 
 .contacts .link:hover,
 .contacts .link:focus {
-    /* color: var(--accent-color); */
     --color4: var(--accent-color);
 }
 
@@ -180,11 +179,20 @@ button {
 /* ======= Студія / hero css =======*/
 
 .hero {
-    background: var(--hero-footer-bg-color);
-
+    max-width: 1600px;
     text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-right: auto;
+    margin-left: auto;
+
+    background: var(--hero-footer-bg-color);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(47, 48, 58, 0.4)), url("../images/content/hero-bg.jpg");
 }
 
 .hero .title {
