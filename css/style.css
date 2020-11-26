@@ -416,7 +416,7 @@ button {
     justify-content: center;
 }
 
-.company-item:not(:nth-last-child(1)){
+.company-item:not(:nth-last-child(1)) {
     margin-right: 30px;
 }
 
@@ -429,7 +429,6 @@ button {
     border: 1px solid var(--icon-current-color);
     box-sizing: border-box;
     border-radius: 4px;
-    --color2: var(--icon-current-color);
 }
 
 .company-link:hover,
@@ -437,10 +436,6 @@ button {
     border-color: var(--accent-color);
     --color3: var(--accent-color);
 }
-
-/* .company-icon{
-    fill: currentColor;
-} */
 
 /*======= Портфолио / filter css =======*/
 
