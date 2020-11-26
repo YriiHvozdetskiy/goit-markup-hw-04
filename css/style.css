@@ -7,6 +7,7 @@
     --bg-color: #F5F4FA;
     --header-logo-span: #000000;
     --hero-footer-bg-color: #2F303A;
+    --icon-current-color: #AFB1B8;
 }
 
 html {
@@ -376,7 +377,7 @@ button {
     margin-right: 10px;
 }
 
-.network-link{
+.network-link {
     display: inline-flex;
     padding: 12px;
     border-radius: 50%;
@@ -386,13 +387,60 @@ button {
 .network-link:hover,
 .network-link:focus {
     background-color: var(--accent-color);
-    --color3:var(--white-text-color);
+    --color3: var(--white-text-color);
 }
 
 .social-networks .network-icon {
     width: 20px;
     height: 20px;
 }
+
+/* ======= Студія / customers css =======*/
+
+.customers {
+    padding: 94px 0px;
+}
+
+.customers .title {
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    margin-bottom: 50px;
+
+    color: var(--title-color)
+}
+
+.customers .company {
+    display: flex;
+    justify-content: center;
+}
+
+.company-item:not(:nth-last-child(1)){
+    margin-right: 30px;
+}
+
+.company-link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 170px;
+    height: 90px;
+    border: 1px solid var(--icon-current-color);
+    box-sizing: border-box;
+    border-radius: 4px;
+    --color2: var(--icon-current-color);
+}
+
+.company-link:hover,
+.company-link:focus {
+    border-color: var(--accent-color);
+    --color3: var(--accent-color);
+}
+
+/* .company-icon{
+    fill: currentColor;
+} */
 
 /*======= Портфолио / filter css =======*/
 
