@@ -330,10 +330,7 @@ button {
 }
 
 .description .wrapper {
-    padding-top: 30px;
-    padding-right: 32px;
-    padding-left: 32px;
-    padding-bottom: 16px;
+    padding: 30px 32px;
 
 }
 
@@ -368,9 +365,7 @@ button {
 .social-networks {
     display: flex;
     justify-content: center;
-    padding-bottom: 30px;
-    padding-left: 32px;
-    padding-right: 32px;
+    margin-top: 16px;
 }
 
 .network:not(:nth-last-child(1)) {
