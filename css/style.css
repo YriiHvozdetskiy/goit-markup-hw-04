@@ -377,12 +377,17 @@ button {
     padding: 12px;
     border-radius: 50%;
 
+    color: var(--icon-current-color);
 }
 
 .network-link:hover,
 .network-link:focus {
     background-color: var(--accent-color);
-    --color3: var(--white-text-color);
+    color: var(--white-text-color);
+}
+
+.network-icon{
+    fill: currentColor;
 }
 
 .social-networks .network-icon {
@@ -424,12 +429,18 @@ button {
     border: 1px solid var(--icon-current-color);
     box-sizing: border-box;
     border-radius: 4px;
+
+    color:var(--icon-current-color);
 }
 
 .company-link:hover,
 .company-link:focus {
     border-color: var(--accent-color);
-    --color3: var(--accent-color);
+    color:var(--accent-color);
+}
+
+.company-icon{
+    fill: currentColor;
 }
 
 /*======= Портфолио / filter css =======*/
@@ -600,17 +611,18 @@ button {
     border-radius: 50%;
 
     background: rgba(255, 255, 255, 0.1);
+    color: var(--white-text-color);
 }
 
 .item-link:hover,
 .item-link:focus {
     background-color: var(--accent-color);
-    --color3: var(--white-text-color);
+
 }
 
 .join-icon {
     width: 20px;
     height: 20px;
 
-    --color3: var(--white-text-color);
+    fill: currentColor;
 }
