@@ -151,16 +151,20 @@ button {
     color: var(--primary-text-color);
 }
 
-.item-email {
+.icon-item-email {
     width: 16px;
     height: 12px;
     margin-right: 10px;
+    
+    fill: currentColor;
 }
 
-.item-smartphone {
+.icon-item-smartphone {
     width: 10px;
     height: 16px;
     margin-right: 10px;
+
+    fill: currentColor;
 }
 
 .contacts .link:hover,
