@@ -368,12 +368,8 @@ button {
 
 .social-networks {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin-top: 16px;
-}
-
-.network:not(:nth-last-child(1)) {
-    margin-right: 10px;
 }
 
 .network-link {
